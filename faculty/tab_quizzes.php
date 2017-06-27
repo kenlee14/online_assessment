@@ -1,0 +1,3 @@
+<div class="scroller" style="height: 337px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
+													Coming Soon....
+												</div>
