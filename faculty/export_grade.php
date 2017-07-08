@@ -19,7 +19,11 @@
 	include('../includes/dbcon.php');
 
         $gid=$_REQUEST['gid'];
+<<<<<<< HEAD
             $at=mysqli_query($con,"select * from post natural join group_post where group_id='$gid' and post_type='assignment'")or die(mysqli_error($con));
+=======
+            $at=mysqli_query($con,"select * from post natural join group_post where group_id='$gid' and post_type='assignment'")or die(mysqli_error());
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 							    while($row=mysqli_fetch_array($at))
 							    {		      
 							      echo "<th>$row[post_title]</th>";

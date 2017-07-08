@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php include('session.php');?>
+=======
+<?php session_start();?>
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 <!DOCTYPE html>
 <!-- 
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.2
@@ -73,7 +77,11 @@ License: You must have a valid license purchased only from themeforest(the above
 										<!--BEGIN TABS-->
 										<div class="tiles">
 <?php
+<<<<<<< HEAD
 	
+=======
+	include('dbcon.php');
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 	$id=$_SESSION['id'];
 	
 		$query1=mysqli_query($con,"select * from `group` natural join subject where group_stat ='Active' order by subject_code")or die(mysqli_error($con));

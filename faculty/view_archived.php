@@ -27,6 +27,10 @@
 					<!-- END BEGIN PROFILE SIDEBAR -->
 					<!-- BEGIN PROFILE CONTENT -->
 <?php 
+<<<<<<< HEAD
+=======
+include('../includes/dbcon.php');
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 $gid=$_REQUEST['gid'];
 $query=mysqli_query($con,"select * from `group` natural join subject where group_id='$gid'")or die(mysqli_error($con));
 	$row=mysqli_fetch_array($query);

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<?php session_start();?>
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 
 <div class="profile-sidebar" style="width: 250px;">
 						<!-- PORTLET MAIN -->

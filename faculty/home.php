@@ -219,7 +219,11 @@
 															<div class="md-checkbox-inline">
 <?php
 			
+<<<<<<< HEAD
 		$query=mysqli_query($con,"select * from `group` natural join subject where member_id='$id' and group_stat='Active'")or die(mysqli_error());
+=======
+		$query=mysqli_query($con,"select * from `group` natural join subject where member_id='$id'")or die(mysqli_error());
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
   			while ($row=mysqli_fetch_array($query)){
 ?>																
 																<div class="md-checkbox">

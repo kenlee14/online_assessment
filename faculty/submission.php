@@ -128,7 +128,11 @@ $query=mysqli_query($con,"select * from `group_post` natural join post natural j
 		if ($countassign<1) echo "<div class='alert alert-danger'>No submissions yet!</div>";
 			while($row1=mysqli_fetch_array($query1))
 			{
+<<<<<<< HEAD
 			//$pid=$row1['post_id'];	
+=======
+			$pid=$row1['post_id'];	
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 			$cys=$row1['cys'];	
 			$gpid=$row1['group_post_id'];	
 			$member_id=$row1['member_id'];

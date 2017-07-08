@@ -32,7 +32,11 @@ include('session.php');
 						<div class="row">
 							<div class="col-md-12">
 								<!-- BEGIN PORTLET -->
+<<<<<<< HEAD
 								<div class="portlet box grey">
+=======
+								<div class="portlet box blue">
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						<div class="portlet-title">
 							<div class="caption">
 								<i class="fa fa-edit"></i> Progress
@@ -62,7 +66,11 @@ include('session.php');
 	include('../includes/dbcon.php');
 
         $gid=$_REQUEST['gid'];
+<<<<<<< HEAD
             $at=mysqli_query($con,"select * from post natural join group_post where group_id='$gid' and post_type='assignment'")or die(mysqli_error($con));
+=======
+            $at=mysqli_query($con,"select * from post natural join group_post where group_id='$gid' and post_type='assignment'")or die(mysqli_error());
+>>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 							    while($row=mysqli_fetch_array($at))
 							    {		      
 							      echo "<th>$row[post_title]</th>";
