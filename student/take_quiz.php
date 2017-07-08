@@ -93,11 +93,7 @@ date_default_timezone_set("Asia/Manila");
 			  $stud_answer=$row['stud_answer'];
 		      $i++;
 ?>					
-<<<<<<< HEAD
 					<form method="post" action="quiz_update.php" name="finish1" id="finish1">
-=======
-					<form method="post" action="quiz_update.php" name="finish" id="finish">
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						<input type="hidden" value="<?php echo $quiz_id;?>" name="quiz_id">
 						<input type="hidden" value="<?php echo $question_id;?>" name="question_id">
 						<input type="hidden" value="<?php echo $row['points'];?>" name="points">

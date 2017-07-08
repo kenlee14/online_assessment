@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php include('session.php');?>
-=======
-<?php session_start();?>
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 <!DOCTYPE html>
 
 <html lang="en">
@@ -35,11 +31,7 @@
 					<!-- END BEGIN PROFILE SIDEBAR -->
 					<!-- BEGIN PROFILE CONTENT -->
 <?php 
-<<<<<<< HEAD
 
-=======
-include('dbcon.php');
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 $gid=$_REQUEST['gid'];
 $query=mysqli_query($con,"select * from `group` natural join subject where group_id='$gid'")or die(mysqli_error($con));
 	$row=mysqli_fetch_array($query);

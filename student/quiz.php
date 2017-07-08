@@ -7,13 +7,9 @@
 <meta charset="utf-8"/>
 <title><?php include('title.php');?> | Home </title>
 <?php include('head.php');?>
-<<<<<<< HEAD
 	<script language="JavaScript"><!--
 		javascript:window.history.forward(1);
 //--></script>
-=======
-
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 </head>
 <body class="page-md page-header-fixed page-sidebar-closed page-sidebar-closed-hide-logo">
 <?php include('header.php');?>

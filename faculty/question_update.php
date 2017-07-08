@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 <?php include('session.php');
 error_reporting(0);
 ?>
-=======
-<?php include('session.php');?>
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 <!DOCTYPE html>
 <html lang="en">
 <!--<![endif]-->

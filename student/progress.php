@@ -53,11 +53,7 @@ include('session.php');
 										      
 							      echo "<tr><th>$row[type]</th>";
 							      echo "<th>$row[score]/$row[total]</th>";
-<<<<<<< HEAD
 							      echo "<th><a href='stat.php?id=$id'>
-=======
-							      echo "<th><a href='stat.php?qid=$qid&id=$id'>
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 							      		<i class='icon-bar-chart font-blue'></i> </a></th>";
 	
 ?>

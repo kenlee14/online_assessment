@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Welcome to gooyaabitemplates support portal
 ----------------------------------------
 
@@ -19,26 +18,4 @@ https://gooyaabitemplates.com/how-to-install-blogger-template/
 If you need additional support, Please visit.. 
 
 
-=======
-Welcome to gooyaabitemplates support portal
-----------------------------------------
-
-
-
-How to install/upload blogger template in your blogger?
-
-Read here..
-
-
-https://gooyaabitemplates.com/how-to-install-blogger-template/
-
-
-
-
-
-
-If you need additional support, Please visit.. 
-
-
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 https://gooyaabitemplates.com/blogger-support-forum/

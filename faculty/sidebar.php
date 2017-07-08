@@ -33,30 +33,17 @@
 
 	$id=$_SESSION['id'];
 	
-<<<<<<< HEAD
 		$queryg=mysqli_query($con,"select * from `group` natural join subject where group_stat='Active' order by subject_code")or die(mysqli_error($con));
 				 $countassign=mysqli_num_rows($queryg);
 				  if ($countassign<1) echo "<h4 class='text-red'>You have not created any class yet!</h4>";
 						while($rowg=mysqli_fetch_array($queryg))
-=======
-		$query1=mysqli_query($con,"select * from `group` natural join subject where group_stat='Active' order by subject_code")or die(mysqli_error($con));
-				 $countassign=mysqli_num_rows($query1);
-				  if ($countassign<1) echo "<h4 class='text-red'>You have not created any class yet!</h4>";
-						while($row2=mysqli_fetch_array($query1))
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						{
 
 ?>							
 						<li>
-<<<<<<< HEAD
 							<a href="view_group.php?gid=<?php echo $rowg['group_id'];?>">
 							<i class="icon-user"></i>
 							<?php echo $rowg['subject_code']." ".$rowg['cys'];?></a>
-=======
-							<a href="view_group.php?gid=<?php echo $row2['group_id'];?>">
-							<i class="icon-user"></i>
-							<?php echo $row2['subject_code']." ".$row2['cys'];?></a>
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						</li>
 <?php }?>			
 						<li>
@@ -89,11 +76,7 @@
 
 ?>												
 						<li>
-<<<<<<< HEAD
 							<a href="progress.php?gid=<?php echo $row2['group_id'];?>">
-=======
-							<a href="progress.php?gid=<?php echo $row2[group_id];?>">
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 							<?php echo $row2['subject_code']." ".$row2['cys'];?></a>
 						</li>
 <?php }?>						
@@ -109,28 +92,16 @@
 					<ul class="sub-menu">
 						<?php
 		
-<<<<<<< HEAD
 		$querya=mysqli_query($con,"select * from `group` natural join subject where group_stat='Archived' order by subject_code")or die(mysqli_error($con));
 				 $countassign=mysqli_num_rows($querya);
 				  if ($countassign<1) echo "<h4 class='text-red'>You have no archived yet!</h4>";
 						while($rowa=mysqli_fetch_array($querya))
-=======
-		$query1=mysqli_query($con,"select * from `group` natural join subject where group_stat='Archived' order by subject_code")or die(mysqli_error($con));
-				 $countassign=mysqli_num_rows($query1);
-				  if ($countassign<1) echo "<h4 class='text-red'>You have no archived yet!</h4>";
-						while($row2=mysqli_fetch_array($query1))
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						{
 
 ?>												
 						<li>
-<<<<<<< HEAD
 							<a href="view_archived.php?gid=<?php echo $rowa['group_id'];?>">
 							<?php echo $rowa['subject_code']." ".$rowa['cys'];?></a>
-=======
-							<a href="view_archived.php?gid=<?php echo $row2[group_id];?>">
-							<?php echo $row2['subject_code']." ".$row2['cys'];?></a>
->>>>>>> 7352b3242919de44ad16326cae862e8f9774c875
 						</li>
 <?php }?>						
 					</ul>
